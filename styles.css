@@ -1,0 +1,75 @@
+body {
+    background-color: lightgray;
+}
+
+
+
+
+.header {
+font-style: italic;
+color: darkolivegreen;
+}
+
+
+@media(min-width:900px){
+.container{
+    display:grid;
+    grid-template-columns: 175Px 150px 150px 150px;
+    grid-template-rows: 100px 250px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd"
+    "sd feat feat feat feat feat feat"
+    "sd main1 main1 main2 main2 main3 main3"
+    "ft ft ft ft ft ft ft";
+    border: 2px solid yellow;
+}
+
+.headerBox{
+    grid-area: hd; 
+    border-color: skyblue;
+    border-width: 5px;
+    border:solid;
+
+}
+
+.sidebarBox{
+    grid-area: sd;
+    border-color: purple;
+    border-width: 5px;
+    border:solid;
+
+}
+
+.footerBox{
+    background-color: gray;
+    grid-area: ft; 
+    min-height: 50px;
+}
+
+.featuredBox{
+    grid-area: feat; 
+    border-color: orange;
+    border-width: 5px;
+    border:solid;
+}
+.otherStoriesBox1{
+    grid-area: main1;
+    border-color: orange;
+    border-width: 5px;
+    border:solid;
+}
+
+.otherStoriesBox2{
+    grid-area: main2;
+    border-color: orange;
+    border-width: 5px;
+    border:solid;
+}
+
+.otherStoriesBox3{
+    grid-area: main3;
+    border: orange;
+    border-width: 5px;
+    border:solid;
+}
+}
