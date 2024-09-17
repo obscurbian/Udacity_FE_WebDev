@@ -1,8 +1,10 @@
 body {
-    background-color: lightgray;
+    background-color: 00000f;
 }
 
-
+p {
+    padding: 10px;
+}
 
 
 .header {
@@ -11,7 +13,7 @@ color: darkolivegreen;
 }
 
 
-@media(min-width:900px){
+@media(min-width:625px){
 .container{
     display:grid;
     grid-template-columns: 175Px 150px 150px 150px;
@@ -19,24 +21,65 @@ color: darkolivegreen;
     grid-template-areas: 
     "hd hd hd hd hd hd hd"
     "sd feat feat feat feat feat feat"
-    "sd main1 main1 main2 main2 main3 main3"
+    "sd main main main main main main"
     "ft ft ft ft ft ft ft";
     border: 2px solid yellow;
+    
 }
 
 .headerBox{
     grid-area: hd; 
-    border-color: skyblue;
-    border-width: 5px;
-    border:solid;
+    border: 2px solid blue;
+
+}
+
+.flexbox{
+    grid-area: main;
+   
+    display:flex;
+    justify-content:  space-around;
+    border: 2px solid purple;
 
 }
 
 .sidebarBox{
     grid-area: sd;
-    border-color: purple;
+    border: 2px solid yellow;
+
+}
+
+
+
+.featuredBox{
+    grid-area: feat; 
+    border: 2px solid orange;
+}
+.otherStoriesBox1{
+  
+    border: 2px solid purple;
+    align-content:center
+}
+
+.otherStoriesBox2{
+ 
+    border-color: orange;
     border-width: 5px;
     border:solid;
+    align-content:center
+}
+
+.otherStoriesBox3{
+ 
+    border: orange;
+    border-width: 5px;
+    border:solid;
+    align-content:center
+}
+
+.genericBox{
+    width: 270px;
+    height: auto;
+    border: 2px solid gray;
 
 }
 
@@ -44,32 +87,5 @@ color: darkolivegreen;
     background-color: gray;
     grid-area: ft; 
     min-height: 50px;
-}
-
-.featuredBox{
-    grid-area: feat; 
-    border-color: orange;
-    border-width: 5px;
-    border:solid;
-}
-.otherStoriesBox1{
-    grid-area: main1;
-    border-color: orange;
-    border-width: 5px;
-    border:solid;
-}
-
-.otherStoriesBox2{
-    grid-area: main2;
-    border-color: orange;
-    border-width: 5px;
-    border:solid;
-}
-
-.otherStoriesBox3{
-    grid-area: main3;
-    border: orange;
-    border-width: 5px;
-    border:solid;
 }
 }
