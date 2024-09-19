@@ -22,11 +22,21 @@ color: darkolivegreen;
     grid-template-areas: 
     "hd hd hd hd hd hd hd"
     "sd feat feat feat feat feat feat"
-    "sd main main main main main main"
+    "main main main main main main main"
     "ft ft ft ft ft ft ft";
     border: 2px solid yellow;
     
+    
 }
+
+
+
+
+
+
+
+
+
 
 .headerBox{
     grid-area: hd; 
@@ -58,7 +68,7 @@ color: darkolivegreen;
 .otherStoriesBox1{
   
     border: 2px solid purple;
-    align-content:center
+    align-content:center;
 }
 
 .otherStoriesBox2{
@@ -66,7 +76,8 @@ color: darkolivegreen;
     border-color: orange;
     border-width: 5px;
     border:solid;
-    align-content:center
+    align-content:center;
+    margin:5px;
 }
 
 .otherStoriesBox3{
@@ -74,13 +85,17 @@ color: darkolivegreen;
     border: orange;
     border-width: 5px;
     border:solid;
-    align-content:center
+    align-content:center;
+    margin:5px;
+
 }
 
 .genericBox{
     width: 270px;
     height: auto;
     border: 2px solid gray;
+    margin:5px;
+
 
 }
 
@@ -90,3 +105,6 @@ color: darkolivegreen;
     min-height: 50px;
 }
 }
+
+
+
