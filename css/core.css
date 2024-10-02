@@ -1,0 +1,14 @@
+body {
+    background-color: 00000f;
+    font-family: monospace;
+    }
+
+p {
+    padding: 10px;
+}
+
+
+.header {
+font-style: italic;
+color: darkolivegreen;
+}

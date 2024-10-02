@@ -1,20 +1,3 @@
-@import "/css/ButtonStyles.css";
-
-
-body {
-    background-color: 00000f;
-    font-family: monospace;
-    }
-
-p {
-    padding: 10px;
-}
-
-
-.header {
-font-style: italic;
-color: darkolivegreen;
-}
 
 
 @media(min-width:625px){
@@ -102,11 +85,6 @@ color: darkolivegreen;
 
 }
 
-.footerBox{
-    background-color: gray;
-    grid-area: ft; 
-    min-height: 50px;
-}
 }
 
 
