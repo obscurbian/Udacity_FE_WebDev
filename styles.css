@@ -21,9 +21,10 @@ color: darkolivegreen;
 .container{
     display:grid;
     grid-template-columns: 175Px 150px 150px 150px;
-    grid-template-rows: 100px 250px;
+    grid-template-rows: 100px 20px 250px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd"
+    "nav nav nav nav nav nav nav"
     "sd feat feat feat feat feat feat"
     "main main main main main main main"
     "ft ft ft ft ft ft ft";
@@ -35,7 +36,13 @@ color: darkolivegreen;
 
 
 
+.buttonBox{
+    display: flex;
+    align-items: end;
+    grid-area: nav;
+    align-items: end;
 
+}
 
 
 
@@ -83,15 +90,6 @@ color: darkolivegreen;
     margin:5px;
 }
 
-.otherStoriesBox3{
- 
-    border: orange;
-    border-width: 5px;
-    border:solid;
-    align-content:center;
-    margin:5px;
-
-}
 
 .genericBox{
     width: 270px;
