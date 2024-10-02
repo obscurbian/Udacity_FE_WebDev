@@ -1,0 +1,5 @@
+.footerBox{
+    grid-area: ft;
+    color: white;
+    background-color: darkgray;
+}

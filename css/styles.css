@@ -61,6 +61,13 @@
     gap: 10px;
 }
 
+.stackedbox{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
    
 .otherStoriesBox1{
   

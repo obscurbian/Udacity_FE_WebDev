@@ -7,8 +7,36 @@ p {
     padding: 10px;
 }
 
+h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h3{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+a{
+    font-style: italic;
+    
+}
+
 
 .header {
 font-style: italic;
 color: darkolivegreen;
+}
+
+figcaption{
+font-style: italic;
+font-size: small;    
 }
