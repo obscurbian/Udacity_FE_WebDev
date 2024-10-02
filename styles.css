@@ -28,7 +28,7 @@ color: darkolivegreen;
     "feat feat feat feat feat feat feat"
     "main main main main main main main"
     "ft ft ft ft ft ft ft";
-    border: 2px solid yellow;
+
     
     
 }
@@ -53,7 +53,6 @@ color: darkolivegreen;
 
 .headerBox{
     grid-area: hd; 
-    border: 2px solid blue;
 
 }
 
@@ -62,13 +61,11 @@ color: darkolivegreen;
    
     display:flex;
     justify-content:  space-around;
-    border: 2px solid purple;
 
 }
 
 .sidebarBox{
     grid-area: sd;
-    border: 2px solid yellow;
 
 }
 
@@ -76,7 +73,6 @@ color: darkolivegreen;
 
 .featuredBox{
     grid-area: feat; 
-    border: 2px solid orange;
 
 }
 .innerFeatBox{
@@ -89,13 +85,11 @@ color: darkolivegreen;
    
 .otherStoriesBox1{
   
-    border: 2px solid purple;
     align-content:center;
 }
 
 .otherStoriesBox2{
  
-    border-color: orange;
     border-width: 5px;
     border:solid;
     align-content:center;
