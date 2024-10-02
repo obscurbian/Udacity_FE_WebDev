@@ -25,7 +25,7 @@ color: darkolivegreen;
     grid-template-areas: 
     "hd hd hd hd hd hd hd"
     "nav nav nav nav nav nav nav"
-    "sd feat feat feat feat feat feat"
+    "feat feat feat feat feat feat feat"
     "main main main main main main main"
     "ft ft ft ft ft ft ft";
     border: 2px solid yellow;
@@ -33,12 +33,15 @@ color: darkolivegreen;
     
 }
 
-
+.featP{
+    display: flex;
+    justify-content: left;
+}
 
 
 .buttonBox{
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     grid-area: nav;
     align-items: end;
 
@@ -74,7 +77,16 @@ color: darkolivegreen;
 .featuredBox{
     grid-area: feat; 
     border: 2px solid orange;
+
 }
+.innerFeatBox{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+   
 .otherStoriesBox1{
   
     border: 2px solid purple;
@@ -94,7 +106,7 @@ color: darkolivegreen;
 .genericBox{
     width: 270px;
     height: auto;
-    border: 2px solid gray;
+    border: 2px solid darkolivegreen;
     margin:5px;
 
 
