@@ -1,4 +1,4 @@
-@import "ButtonStyles.css";
+@import "/css/ButtonStyles.css";
 
 
 body {
@@ -46,10 +46,6 @@ color: darkolivegreen;
     align-items: end;
 
 }
-
-
-
-
 
 .headerBox{
     grid-area: hd; 
