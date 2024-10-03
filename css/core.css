@@ -10,23 +10,28 @@ p {
 h1{
     font-weight: bold;
     font-size: 30px;
+    text-decoration:solid;
 }
 
 h2{
     font-weight: bold;
     font-style: italic;
     font-size: 20px;
+    color: darkolivegreen;
 }
 
 h3{
     font-weight: bold;
     font-style: italic;
     font-size: 15px;
+    color: teal;
+    text-decoration: underline;
 
 }
 
 a{
     font-style: italic;
+    font-weight: bolder;
     
 }
 
